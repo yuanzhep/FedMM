@@ -5,7 +5,7 @@
 The fusion of complementary multimodal information is increasingly vital in computational pathology for more accurate diagnostics. The traditional multimodal learning methods require access to users' raw data, raising significant privacy concerns. Federated Learning (FL) offers a privacy-preserving alternative but does not adequately address the challenges posed by heterogeneous modalities across different clients.
 
 To bridge this gap, we introduce the Federated Multi-Modal Learning (FedMM) framework. FedMM trains multiple federated single-modal feature extractors, in contrast to conventional FL methods that focus on training a multimodal fusion model.
-
+![Example Image](./img/FedMM.png)
 ## Key Features
 
 - **Privacy-Preserving**: No need to access users' raw data, mitigating privacy risks.
