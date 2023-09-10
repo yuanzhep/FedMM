@@ -23,8 +23,9 @@ $ conda env create --name FedMM --file FedMM.yml
 $ conda activate FedMM
 ```
 
-### Openslide Tutorials
-- [Tutorial](https://openslide.org/)
+### Tutorials
+- [Openslide Tutorial](https://openslide.org/)
+- [GISTIC2 Tutorial]([https://openslide.org/](https://broadinstitute.github.io/gistic2/)
 
 ## Processing
 
