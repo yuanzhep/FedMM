@@ -19,7 +19,7 @@ The FedMM framework aims to address the challenges of privacy and modality heter
 
 ### Required Packages
 ```bash
-$ conda env create --name FedMM --file env.yml
+$ conda env create --name FedMM --file FedMM.yml
 $ conda activate FedMM
 ```
 
