@@ -25,7 +25,7 @@ $ conda activate FedMM
 
 ### Tutorials
 - [Openslide Tutorial](https://openslide.org/)
-- [GISTIC2 Tutorial]([https://openslide.org/](https://broadinstitute.github.io/gistic2/)
+- [GISTIC2 Tutorial](https://broadinstitute.github.io/gistic2/)
 
 ## Processing
 
