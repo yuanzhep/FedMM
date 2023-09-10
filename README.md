@@ -9,8 +9,6 @@ The FedMM framework aims to address the challenges of privacy and modality heter
 - **Local Inference**: Clients can locally extract features and perform classifications, reducing the need for centralized computation.
 - **Improved Generalization**: Trains federated feature extractors on distributed data, enhancing generalizability.
 
-## Performance
-Comprehensive evaluations on two publicly available datasets show that FedMM significantly outperforms existing baselines in terms of accuracy and AUC metrics.
 ![Example Image](./img/FedMM.png)
 ## Installation Steps
 
