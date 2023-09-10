@@ -63,3 +63,5 @@ tcga_cnv_data (distributed to three hospitals)
 |   |-- ...
 |-- label.csv (labels)
 ```
+## How to Contribute
+You are welcome to contribute to this exciting project. Please fork the master branch and add your improvement/modification/fix. You are also welcome to share your ideas by opening an issue or dropping me an email at yxp412@miami.edu :)
