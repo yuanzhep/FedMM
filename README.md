@@ -15,7 +15,7 @@ Comprehensive evaluations on two publicly available datasets show that FedMM sig
 ## Installation Steps
 
 ### Prerequisites
-- Install Anaconda/Miniconda
+- Install [Anaconda/Miniconda](https://docs.conda.io/projects/miniconda/en/latest/)
 
 ### Required Packages
 \`\`\`bash
@@ -24,12 +24,11 @@ $ conda activate FedMM
 \`\`\`
 
 ### Additional Libraries
-- Install PyTorch
-- Install OpenSlide and openslide-python
+- Install [PyTorch](https://pytorch.org/get-started/locally/)
+- Install [OpenSlide and openslide-python](https://pypi.org/project/openslide-python/)
 
 ### Tutorials
-- [Tutorial 1](#)
-- [Tutorial 2 for Windows](#)
+- [Tutorial](https://openslide.org/)
 
 ## Data Processing
 
@@ -37,12 +36,12 @@ $ conda activate FedMM
 
 #### Downloading WSI Data
 - From GDC data portal
-  - Use GDC data portal with a manifest file and a configuration file. Note: downloading raw WSIs may take several days and ~5TB of disk space.
-  - Refer to [TCGA data portal documentation](#) for more details.
+  - Use [GDC data portal](https://docs.gdc.cancer.gov/Data_Transfer_Tool/Users_Guide/Getting_Started/) with a manifest file and a configuration file. Note: downloading raw WSIs may take several days and ~5TB of disk space.
+  - Refer to [TCGA data portal documentation](https://docs.gdc.cancer.gov/Data_Transfer_Tool/Users_Guide/Getting_Started/) for more details.
 
 #### Preparing Patches
-- OpenSlide, a C library with Python API, is used for reading WSI data.
-- Consult the [OpenSlide Python API documentation](#) for details.
+- [OpenSlide](https://openslide.org/), a C library with [Python API](https://pypi.org/project/openslide-python/), is used for reading WSI data.
+- Refer the [OpenSlide Python API documentation](https://openslide.org/api/python/) for details.
 
 ## Folder Structure
 \`\`\`
