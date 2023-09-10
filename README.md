@@ -18,10 +18,10 @@ Comprehensive evaluations on two publicly available datasets show that FedMM sig
 - Install [Anaconda/Miniconda](https://docs.conda.io/projects/miniconda/en/latest/)
 
 ### Required Packages
-\```bash
+```bash
 $ conda env create --name FedMM --file env.yml
 $ conda activate FedMM
-\```
+```
 
 ### Additional Libraries
 - Install [PyTorch](https://pytorch.org/get-started/locally/)
