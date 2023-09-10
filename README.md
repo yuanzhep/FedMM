@@ -38,7 +38,7 @@ $ conda activate FedMM
 - [OpenSlide](https://openslide.org/), a C library with [Python API](https://pypi.org/project/openslide-python/), is used for reading WSI data.
 - Refer the [OpenSlide Python API documentation](https://openslide.org/api/python/) for details.
 
-## Folder Structure
+## Data Folder Structure
 ```bash
 tcga_wsi_data (distributed to three hospitals)
 |-- wsi_nsclc 
