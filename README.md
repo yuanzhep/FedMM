@@ -21,6 +21,7 @@ Comprehensive evaluations on two publicly available datasets show that FedMM sig
 ```bash
 $ conda env create --name FedMM --file env.yml
 $ conda activate FedMM
+```bash
 
 ### Additional Libraries
 - Install [PyTorch](https://pytorch.org/get-started/locally/)
