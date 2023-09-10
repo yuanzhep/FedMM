@@ -15,7 +15,9 @@ Comprehensive evaluations on two publicly available datasets show that FedMM sig
 ## Installation Steps
 
 ### Prerequisites
+- Install [PyTorch](https://pytorch.org/get-started/locally/)
 - Install [Anaconda/Miniconda](https://docs.conda.io/projects/miniconda/en/latest/)
+- Install [OpenSlide and openslide-python](https://pypi.org/project/openslide-python/)
 
 ### Required Packages
 ```bash
@@ -23,19 +25,14 @@ $ conda env create --name FedMM --file env.yml
 $ conda activate FedMM
 ```
 
-### Additional Libraries
-- Install [PyTorch](https://pytorch.org/get-started/locally/)
-- Install [OpenSlide and openslide-python](https://pypi.org/project/openslide-python/)
-
-### Tutorials
+### Openslide Tutorials
 - [Tutorial](https://openslide.org/)
 
-## Data Processing
+## Processing
 
 ### Processing Raw WSI Data
 
-#### Downloading WSI Data
-- From GDC data portal
+#### Downloading WSI Data From GDC Data Portal
   - Use [GDC data portal](https://docs.gdc.cancer.gov/Data_Transfer_Tool/Users_Guide/Getting_Started/) with a manifest file and a configuration file. Note: downloading raw WSIs may take several days and ~5TB of disk space.
   - Refer to [TCGA data portal documentation](https://docs.gdc.cancer.gov/Data_Transfer_Tool/Users_Guide/Getting_Started/) for more details.
 
@@ -44,7 +41,7 @@ $ conda activate FedMM
 - Refer the [OpenSlide Python API documentation](https://openslide.org/api/python/) for details.
 
 ## Folder Structure
-\`\`\`
+```bash
 tcga_wsi_data (distributed to three hospitals)
 |-- wsi_nsclc 
 |   |-- luad
@@ -56,9 +53,6 @@ tcga_wsi_data (distributed to three hospitals)
 |   |-- TCGA-22-5480-01Z-00-DX1.csv
 |   |-- ...
 |-- label.csv (labels)
-\`\`\`
-
-\`\`\`
 tcga_cnv_data (distributed to three hospitals)
 |-- wsi_nsclc 
 |   |-- luad
@@ -70,4 +64,4 @@ tcga_cnv_data (distributed to three hospitals)
 |   |-- TCGA-22-5480-01Z-00-DX1.csv
 |   |-- ...
 |-- label.csv (labels)
-\`\`\`
+```
