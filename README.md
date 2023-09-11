@@ -1,4 +1,4 @@
-# FedMM: A PyTorch Implementation for Federated Multi-Modal Learning in Computational Pathology
+# FedMM: A PyTorch Implementation for Federated Multi-Modal Learning in Computational Pathology (updating)
 
 ## Overview
 The FedMM framework aims to address the challenges of privacy and modality heterogeneity in computational pathology. This implementation is based on the paper "FedMM: Federated Multi-Modal Learning with Modality Heterogeneity in Computational Pathology.", advised by Dr. Jie Xu.
