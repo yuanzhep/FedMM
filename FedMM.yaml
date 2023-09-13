@@ -238,4 +238,3 @@ dependencies:
     - websockets==8.1
     - zarr==2.3.2
     - zope-interface==4.6.0
-prefix: /home/fedshyvana/anaconda3/envs/deep_learning
